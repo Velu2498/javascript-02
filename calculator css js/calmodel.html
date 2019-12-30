@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Calculator model</title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="CalculatorProject_model.css">
+        <script src="https://kit.fontawesome.com/62c72b9538.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class="container-fluid con ">
+        <div class="row ">
+                <div class="col-xl-9">
+                <form name="calculator">
+                        <div class="row">
+                                <div class="col-1 col-sm-1 col-xl-1">
+                                        <button><i class="fa fa-bars icons"></i></button>
+                                </div>
+                                <div class="col-4 col-sm-4 col-xl-4">
+                                        <h3>Standard</h3>
+                                </div>
+                                <div class="col-1 col-sm-1 col-xl-1 offset-xl-5">
+                                        <button><i class="fa fa-external-link-alt icons"></i></button>
+                                </div>
+                                <div class="col-1 col-sm-1 col-xl-1 ">
+                                        <button><i class="fa fa-history icons"></i></button>
+                                </div>
+                        </div>
+                        <div class="row r">
+                                <div class="col-12 col-sm-12 col-xl-12">
+                                        <input type="textfield" name="ans" value=""  class="result" id="a" disabled style="height:100% ;">
+                                </div>
+
+                        </div>
+                        <div class="row r">
+                                <div class="col-1 col-sm-1 col-xl-1 mc r1">
+                                        <button disabled class="m" value="">MC</button>
+                                </div>
+                                <div class="col-1 col-sm-1 col-xl-1 mc">
+                                        <button disabled class="m">MR</button>
+                                </div>
+                                <div class="col-1 col-sm-1 col-xl-1 mc">
+                                        <button class="m">M+</button>
+                                </div>
+                                <div class="col-1 col-sm-1 col-xl-1 mc">
+                                        <button class="m">M-</button>
+                                </div>
+                                <div class="col-1 col-sm-1 col-xl-1 mc">
+                                        <button class="m">MS</button>
+                                </div>
+                                                          
+                        </div>
+                        <div class="row r"> 
+                                <div class="col-2 col-sm-2 col-xl-2 r1">
+                                        <button>%</button>
+                                </div>
+                                <div class="col-2 col-sm-2 col-xl-2">
+                                                <input type="reset" value="CE" class="op fe">
+                                        
+                                </div>
+                                <div class="col-2 col-sm-2 col-xl-2">
+                                                <input type="reset" value="C" class="op">
+                                        
+                                </div>
+                                <div class="col-2 col-sm-2 col-xl-2">
+                                                <input type="reset" value="Reset" class="op">
+                                        
+                                </div>
+                                <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="/" onClick="document.calculator.ans.value+='/'" class="op">
+                                                
+                                </div>
+                        </div>
+                        <div class="row r"> 
+                                        <div class="col-2 col-sm-2 col-xl-2 r1 ">
+                                                        <button><sup>2</sup>X</button>
+                                              
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="7" onClick="document.calculator.ans.value+='7'" class="num">
+                                               
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="8" onClick="document.calculator.ans.value+='8'" class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="9" onClick="document.calculator.ans.value+='9'" class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2 ">
+                                                        <input type="button" value="*" onClick="document.calculator.ans.value+='*'" class="op">
+                                        </div>
+                        </div>
+                        <div class="row r"> 
+                                        <div class="col-2 col-sm-2 col-xl-2 r1">
+                                                        <button>x<sup>2</sup></button>
+                                                
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="4" onClick="document.calculator.ans.value+='4'" class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="5" onClick="document.calculator.ans.value+='5'" class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="6" onClick="document.calculator.ans.value+='6'" class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2 ">
+                                                        <input type="button" value="-" onClick="document.calculator.ans.value+='-'" class="op">
+                                        </div>
+                        </div>
+                        <div class="row r"> 
+                                        <div class="col-2 col-sm-2 col-xl-2 r1">
+                                                        <button >x <sup>3</sup> </button>
+                                                
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="1" onClick="document.calculator.ans.value+='1'" class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="2" onClick="document.calculator.ans.value+='2'" class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="3" onClick="document.calculator.ans.value+='3'"class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2 ">
+                                                        <input type="button" value="+" onClick="document.calculator.ans.value+='+'" class="op">
+                                        </div>
+                        </div>
+                        <div class="row r"> 
+                                        <div class="col-2 col-sm-2 col-xl-2 r1">
+                                                        <button >1/x</button>
+                                                
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <button>+/-</button>
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="0" onClick="document.calculator.ans.value+='0'"class="num">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2">
+                                                        <input type="button" value="." onClick="document.calculator.ans.value+='.'" class="op">
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-xl-2 ">
+                                                        <input type="button" value="=" onClick="call()"  class="op eq" id="eq">
+                                        </div>
+                        </div>
+                </div>  
+                <div class="col-xl-3">
+                        <p> <b class="his">History</b> <b class="mem" >Memory</b></P>
+                        <p> There is no history</p>
+                </div>
+        </div> 
+</div>
+</form>
+<script src="calculator EXTERNAL java script_model.js">
+        
+
+
+
+
+        
+</script>    
+</body>
+</html>

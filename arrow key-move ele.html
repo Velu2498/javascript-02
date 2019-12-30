@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>arrow key</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="mx-auto" style="width: 500px; margin-top: 200px;">
+
+    <div  id="imgdiv" sty>
+            <img   id="img" src="image-office.jpeg" alt="" style="border-radius: 50%;height: 100px;"> 
+    </div>
+
+    <div id="buttdiv" style="position: fixed; top: 500px;">
+    <button id="up" onclick="up()">UP</button>
+    <button id="down" onclick="down()">DOWN</button>
+    <button id="left" onclick="left()">LEFT</button>
+    <button id="right" onclick="right()">RIGHT</button>
+    </div>
+ 
+            
+    </div> 
+
+
+
+<script>
+u=25
+function up(){
+    console.log("up");
+    // document.getElementById("img").setAttribute("style","margin-top:50px");
+    document.getElementById("img").style.marginTop = "-"+u+"px";
+    u++
+}
+d=50
+function down(){
+
+    console.log("d")
+    document.getElementById("img").style.marginTop = d+"px";
+    d++
+}
+l=50
+function left(){
+    console.log("l")
+    document.getElementById("img").style.marginLeft = "-"+l+"px";
+    l++
+}
+r=25
+function right(){
+    console.log("r")
+    document.getElementById("img").style.marginLeft = r+"px";
+    r++
+}
+
+
+document.onkeydown= function(e) {
+    console.log(e)
+    console.log(e.key)
+    switch (e.keyCode) {
+        case 37:
+            // alert('left');
+            left()
+            break;
+        case 38:
+            // alert('up');
+            up()
+            break;
+        case 39:
+            // alert('right');
+            right()
+            break;
+        case 40:
+            // alert('down');
+            down();
+            break;
+    }
+};
+</script>
+</body>
+</html>

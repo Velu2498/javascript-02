@@ -1,0 +1,36 @@
+
+<html>
+<head><title>pagination</title>
+  <link rel="stylesheet" href="page.css">
+
+</head>
+<body onload="fun(1)">
+  <div>
+    <table id="id1"></table>
+    <ul id="id2"></ul>
+    </div>
+  
+  <script src ="data.js"></script>
+  <script>
+      var inp=" ";
+      for(i=1;i<=Math.ceil(funn.length/5);i++)
+      {
+        inp += '<button onclick="fun( ' + i + ' );">' + i + '</button>';
+      }
+       document.getElementById("id2").innerHTML="<button>&laquo</button><li>"+inp+"</li><li><button>&raquo</button></li>";
+    function fun(n)
+    {
+    var last = n * 5;
+    var first = last - 5;
+    var out="";
+    var i=0;
+    for(i=first;i<last;i++)
+    {
+        out+='<tr><td>'+funn[i].id+'</td><td>'+funn[i].name+'</td><td>'+funn[i].email+'</td></tr>';
+      document.getElementById("id1").innerHTML="<th>Id</th><th> Name</th><th>Email</th>"+out;
+    }
+    }
+    
+  </script>
+</body>
+</html>

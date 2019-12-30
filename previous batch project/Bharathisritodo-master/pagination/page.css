@@ -1,0 +1,22 @@
+
+table{
+    border-style:solid;
+    margin:150px auto; 
+    background-color: grey;  
+}
+table,th,td{
+  padding: 10px;
+  border-radius: 5px;
+ 
+  border-width: 4px;
+  font-size: 30px;
+  border-style: solid;
+  
+}
+ul,li{
+  list-style-type: none;
+}
+button{
+  float: left;
+}
+

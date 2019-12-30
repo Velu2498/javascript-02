@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> css basic </title>
+        <link rel="stylesheet" type="text/css" href="style-basict.css">
+    </head>
+<body>
+      <div class="form" style="overflow: hidden;">
+          <form action="" style="position: absolute; z-index: 1; ">
+              <label for="name">NAME</label>
+              <input type="text" name="name" id="nam" style="width: 200px;margin-top: 10px;">
+              
+              <label for="age" style="margin-left: 150px;">AGE</label>
+              <input type="number" name="age" id="age">
+              <br>
+              <label for="country">COUNTRY</label>
+              <select name="country" style="margin-top: 20PX;" id="con">
+                  <option >US</option>
+                  <option selected >INDIA</option>
+                  <option>UK</option>
+              </select>
+
+              <label for="state" style="margin-left:50PX;">STATE</label>
+              <select name="state" id="st" >
+                  <option value="tn">TN</option>
+                  <option value="ap">AP</option>
+                  <option value="up" selected>UP</option>
+              </select>
+
+              <label for="city" style="margin-left:50PX;">CITY</label>
+              <select name="city" id="cty">
+                <option value="ch">CHENNAI</option>
+                <option value="co">COIMBATHORE</option>
+              </select>
+              <br>
+
+              <p class="gender" style="margin-top: 20PX;">GENDER</p>
+              <!-- <label for="gender" class="gender" style="margin-top: 20PX;">GENDER</label> -->
+              <input type="radio" name="gender" style="margin-top: 0PX; margin-left: 60px;" class="gender1" value="male"> MALE <br>
+              <input type="radio" name="gender"  style="margin-top: 0PX; margin-left: 60px;" class="gender2" value="female"> FEMALE
+             
+              <p class="marr status" style="margin-top: -71PX; margin-left: 242px;">MARR STATUS</p>
+              <!-- <label for="marr status" style="margin-left:30px;" class="ms">MARR STATUS</label> -->
+              <input type="radio" name="marr status" style="margin-top: 0PX;margin-left: 300px;" class="ms" value="marr" > MARRIED. <br>
+              <input type="radio" name="marr status" style="margin-top: 0PX;margin-left: 300px;"class="ms" value="unmarr"> HAPPY,
+              <br>
+              <label for="skills[]" style="margin-top: 20PX;">SKILLS</label>
+              <input type="checkbox" name="skills[]" style="margin-top: 20PX;" value="python"> PYTHON
+              <input type="checkbox" name="skills[]" value="js"> JS
+              <input type="checkbox" name="skills[]" value="HTML"> HTML
+              <input type="checkbox" name="skills[]" value="CSS"> CSS
+              <br>
+              <P style="margin-top: 20PX;">ABOUT YOU</P>
+              <textarea name="about you" cols="30" rows="10" style="margin-top: 0PX;" placeholder="ABOUT YOU" id="abu"> </textarea>
+              <br>
+              <input type="submit" placeholder="submit here" onclick="add();return false" style="margin-top: 20PX; background-color:white;">
+          </form>
+          <img src="image-office.jpeg" alt="" style="opacity: 0.5;">
+      </div>
+
+      <div class="table" style="overflow: hidden;">
+             <table style="position: absolute;  z-index: 1;">
+                    <thead>
+                            <tr>
+                                <th>NAME</th>
+                                <th>AGE</th>
+                                <th>COUNTRY</th>
+                                <th>STATE</th>
+                                <th>CITY</th>
+                                <th>GENDER</th>
+                                <th>MARR STATUS</th>
+                                <th>SKILLS</th>
+                                <th>ABOUT</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            <tr>
+                                <td>velu</td>
+                                <td>21</td>
+                                <td>INDIA</td>
+                                <td>TAMIL NADU</td>
+                                <td>CHENNAI</td>
+                                <td>MALE</td>
+                                <td>HAPPY</td>
+                                <td>PYTHON,JS</td>
+                            
+                            <tfoot> </tfoot>
+                            </tr> 
+                        </tbody>
+             </table>
+             <img src="hacker.jpg" alt="" style="opacity: 0.5;">
+      </div>
+      <script src="form .js">
+      </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- !important<br>
+        margin-space bwt two boxs<br>
+        padding-space bwt content and box<br>
+        float<br>
+        <h1 style="width:40%;float:left;margin: 10px;">linking</h1>
+        <p style="color:green;width:50%;float:top"> run barry run</p>
+        <h2 class="v01 v02">
+            one
+        </h2> -->

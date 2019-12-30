@@ -1,0 +1,78 @@
+body{
+
+}
+.con{
+    
+}
+form{
+
+}
+.result{
+    height: 140px !important;
+    /* float: right; */
+    direction: rtl;
+}
+.r{
+    margin-top: 25px;
+}
+.calculator{
+    margin-top: 500px;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+.icons{
+    border:none;
+}
+.disp{
+    font-size: 3em;
+    width:100%;
+    background-color: rgb(250, 250, 250);
+    text-align: right;
+    border:none;
+}
+button{
+    border:none;
+    width:100%;
+    background-color: rgb(250, 250, 250);
+    font-size: 2em;
+    /* border: 0.1px; */
+}
+input{
+    border:none;
+    width:100%;
+    background-color: rgb(250, 250, 250);
+    font-size: 2em;
+    /* border: 0.1px; */
+}
+button:hover{
+    background-color: grey;
+}
+input:hover[type="button"] 
+  {
+      background: grey;
+  } 
+input:hover[type="reset"] 
+  {
+      background: grey;
+  }
+
+.m{
+    font-size: 1em;
+}
+.his{
+    /* text-decoration: underline; */
+    /* text-decoration: underline  blue; */
+    border-bottom: 5px solid blue;
+}
+.mem{
+    margin-left: 50px;
+}
+.num{
+    background-color:white;
+    width: 120%;
+    height: 145%;
+} 
+.r1{
+    margin-left: 65px;
+}

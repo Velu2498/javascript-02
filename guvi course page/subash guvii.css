@@ -1,0 +1,102 @@
+
+.subs{
+    color:black;
+}
+.mySidenav>a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  .mySidenav>a:hover {
+    left: 0;
+  }
+/* .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+.a{
+    background-color: gray;
+    height: 500px;
+}
+.b{
+    background-color:white;
+    height: 500px;
+
+}
+.c{
+    background-color:red;
+    height: 50px;
+
+}
+.d{
+    background-color: yellow;
+    height: 50px;
+
+}
+.e{
+    background-color: green;
+    height: 50px;
+
+}
+.f{
+    background-color: magenta;
+    height: 50px;
+
+}
+.g{
+    background-color: grey;
+    height: 50px;
+
+}
+.h{
+    background-color: orange;
+    height: 50px;
+
+}
+.i{
+    background-color: red;
+    height: 200px;
+
+}
+.j{
+    background-color: pink;
+    height: 200px;
+
+}
+.k{
+    background-color: brown;
+    height: 200px;
+
+}
+.l{
+    background-color: black;
+    height: 200px;
+
+}
+.m{
+    background-color: cyan;
+    height: 200px;
+
+}
+.n{
+    background-color: red;
+    height: 200px;
+
+} 

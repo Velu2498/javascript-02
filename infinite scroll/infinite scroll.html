@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>infinite scroll</title>
+    <style>
+            #main{
+                width: 800px;
+                margin: 0px auto;
+            }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <img src="image-office.jpeg" alt="">
+    </div>
+
+    <script>
+        window.onscroll = fun;
+        function fun() {
+            var main = document.getElementById("main");
+            var conHt = main.offsetHeight
+            console.log(conHt)
+            var yoff = window.pageYOffset
+            var y = yoff + window.innerHeight
+            console.log(y)
+            if (y >= conHt) {
+                main.innerHTML += "<div><img src='image-office.jpeg'></div>"
+            }
+        }
+    </script>
+</body>
+
+</html>

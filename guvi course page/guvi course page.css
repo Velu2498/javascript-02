@@ -1,0 +1,107 @@
+.sidenavcon>a{
+    background-color: white;
+    height: 800px;
+    position: fixed;
+    left: -50px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px; 
+    color: white;
+    z-index: 0;
+    display: none;
+}
+
+.sidenavcon > a:hover {
+    left: 0;
+    z-index: 1;
+    display: block;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+
+  .icon{
+          position: relative;
+          background-image: url("sprite-icons.png");
+          height: 21px;
+          width: 23px;
+          left: 15px;
+          top:10px;
+          display: inline-block;
+  
+  }
+  .code_kata{
+          background-position: -50px -50px;
+          margin-bottom: 10px;        
+  }
+  .micro-arc{
+          background-position: -50px -100px;
+          margin-bottom: 10px;
+  }
+  .project-board{
+          background-position: -150px 0px;
+          margin-bottom: 10px;
+  }
+  .lb{
+          background-position: -150px -50px;
+          margin-bottom: 10px;
+  }
+  .rewards{
+          background-position: -150px -100px;
+          margin-bottom: 10px;
+  }
+
+  
+
+
+.maincon{
+    background-color: rgb(247, 238, 238);
+    color: #212529;
+    height: auto;
+}
+.rank{
+    background-color: white;
+    height: 50px;
+}
+.ran{
+    position: relative;
+    top: 4px;
+}
+.vl {
+    border-left: 2px solid gray;
+    position: relative;
+    left: 81px;
+    height: 25px;
+    width: 0px;
+    top: -24px;
+}
+.prof{
+    margin-left: 20px;
+}
+.enroll{
+    float: right;
+}
+.img{
+    width: 97% !important;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.rc2{
+    margin-top: 25px;
+}
+#cl{
+    border-bottom: 3px solid #20fc8f;
+}
+  
